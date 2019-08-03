@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.smart.mall.web.starter.config.JacksonConfig,\
+  com.smart.mall.web.starter.config.RestTemplateConfig.\
+  com.smart.mall.web.starter.metrics.MetricsAutoConfiguration,\
+  com.smart.mall.web.starter.handler.GlobalExceptionHandler,\
+  com.smart.mall.web.starter.handler.GlobalResponseBodyHandler

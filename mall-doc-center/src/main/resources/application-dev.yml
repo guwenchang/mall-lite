@@ -1,0 +1,7 @@
+swagger:
+  doc:
+    resources:
+      admin-api:
+        name: admin-api
+        api-docs-path: /v2/api-docs
+        server-url: http://localhost:10010

@@ -1,0 +1,20 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: mall-monitor
+  profiles:
+    active: dev
+  security:
+    user:
+      name: "mall"
+      password: "mall"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
